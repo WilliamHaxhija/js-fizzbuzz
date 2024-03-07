@@ -3,3 +3,45 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    background-color: #083b4c;
+    padding: 2rem;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 3.5rem;
+}
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.card {
+    width: 4rem;
+    height: 4rem;
+    background-color: #1389b2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fizz {
+    background-color: #0cd6a1;
+}
+
+.buzz {
+    background-color: #ffd166;
+}
+
+.fizz-buzz {
+    background-color: #f0466f;
+}
